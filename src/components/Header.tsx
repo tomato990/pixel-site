@@ -16,8 +16,7 @@ export const Header: React.FC = () => {
       </Link>
     <script>
     var __cbSdkHost = "https://testahp.weichengw.cbinternal.com/";
-    var __cbSdkSettings={'cbq':{destinations:[{name:"cloudbridge"},],
-    "host":__cbSdkHost,"globalVar":"cbq",}};
+    var __cbSdkSettings={'cbq':{destinations:[{name:"cloudbridge"},],"host":__cbSdkHost,"globalVar":"cbq",}};
     !function(a,h,e,v,n,t,s)
       {if(a.cbq)return;n=a.cbq=function(){n.callMethod?
       n.callMethod.apply(n,arguments):n.queue.push(arguments)};
