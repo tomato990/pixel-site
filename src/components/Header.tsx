@@ -14,8 +14,8 @@ export const Header: React.FC = () => {
       <Link to="/">
         <h1 style={headingStyles}>Altmeta.org Pixel Test</h1>
       </Link>
-      <script>
-    var __cbSdkHost = "https://dlz4ju33qov8p.cloudfront.net/";
+    <script>
+    var __cbSdkHost = "https://testahp.weichengw.cbinternal.com/";
     var __cbSdkSettings={'cbq':{destinations:[{name:"cloudbridge"},],
     "host":__cbSdkHost,"globalVar":"cbq",}};
     !function(a,h,e,v,n,t,s)
@@ -25,9 +25,9 @@ export const Header: React.FC = () => {
       n.queue=[];t=h.createElement(e);t.async=!0;
       t.src=v;s=h.getElementsByTagName(e)[0];
       s.parentNode.insertBefore(t,s)}(window, document,'script',
-      __cbSdkHost+'sdk/capig-events.js');
-    cbq('init', "4790815198314486511");
-    cbq('loadConfig', "4790815198314486511");
+      "https://d1m12fjtnf2nja.cloudfront.net/"+'sdk/capig-events.js');
+    cbq('init', "7251534251557496328");
+    cbq('loadConfig', "7251534251557496328");
     cbq('track', 'PageView');
     </script>
     </header>
