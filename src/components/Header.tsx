@@ -10,7 +10,7 @@ const headingStyles: React.CSSProperties = {
 export const Header: React.FC = () => {
   return (
     <header>
-      <script>
+      <script>{`
     var __cbSdkHost = "https://testahp.weichengw.cbinternal.com/";
     var __cbSdkSettings={'cbq':{destinations:[{name:"cloudbridge"},],
     "host":__cbSdkHost,"globalVar":"cbq",}};
@@ -24,7 +24,7 @@ export const Header: React.FC = () => {
       "https://d1m12fjtnf2nja.cloudfront.net/"+'sdk/capig-events.js');
     cbq('init', "7251534251557496328");
     cbq('loadConfig', "7251534251557496328");
-    cbq('track', 'PageView');
+    cbq('track', 'PageView');`}
     </script>
       <title>Altmeta.org Pixel Test</title>
       <Link to="/">
