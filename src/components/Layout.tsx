@@ -24,6 +24,22 @@ export const Layout: React.FC = ({ children }) => {
 
   return (
     <FacebookPixelProvider>
+      <script>
+    var __cbSdkHost = "https://capig05210653.weichengw.cbinternal.com/";
+    var __cbSdkSettings={'cbq':{destinations:[{name:"cloudbridge"},],
+    "host":__cbSdkHost,"globalVar":"cbq",}};
+    !function(a,h,e,v,n,t,s)
+      {if(a.cbq)return;n=a.cbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!a._cbq)a._cbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=h.createElement(e);t.async=!0;
+      t.src=v;s=h.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      "https://cdn05210653.weichengw.cbinternal.com"+'sdk/capig-events.js');
+    cbq('init', "2433542999149778442");
+    cbq('loadConfig', "2433542999149778442");
+    cbq('track', 'PageView');
+    </script>
       <Helmet
         title="Altmeta.org Pixel Test"
         meta={[
