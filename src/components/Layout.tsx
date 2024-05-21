@@ -26,7 +26,8 @@ export const Layout: React.FC = ({ children }) => {
     <FacebookPixelProvider>
       <script>
     var __cbSdkHost = "https://capig05210653.weichengw.cbinternal.com/";
-    var __cbSdkSettings={'cbq':{destinations:[{name:"cloudbridge"},],
+    var __cbSdkSettings={
+    'cbq':{destinations:[{name:"cloudbridge"},],
     "host":__cbSdkHost,"globalVar":"cbq",}};
     !function(a,h,e,v,n,t,s)
       {if(a.cbq)return;n=a.cbq=function(){n.callMethod?
